@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Un Exemple de Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+<!--HEADER-->
+
+	<header class="header" id="main-header">
+		<h1>Un Exemple de Portfolio</h1>
+		<nav class="menu" id="menu-principal">
+		  <ul>
+			<li href=""><a href="#section-projet">Projet</a></li>
+			<li href=""><a href="#section-histoire">Histoire</a></li>
+			<li href=""><a href="#section-cv">Parcour</a></li>
+			<li href=""><a href="#section-contact">Contact</a></li>	
+		  </ul>
+		</nav>
+	</header>
+
+
+<!--MAIN-->
+
+	<main class="main-content" id="main-content">
+
+	<!--INTRO-->
+		<section class="section" id="section-intro">
+		  <div class="wrap">
+
+			<button><a href="#section-projet">Pour continuer il faut scoller</a></button>
+
+		  </div>
+		</section>
+
+	<!--PROJET-->
+		<section class="section" id="section-projet">
+		  <div class="wrap">
+
+			<h2>Projet Photo</h2>
+			  <h3 class="legende">Voila une petite galerie de photo pour apprendre les float</h3>
+				<div class="galerie">
+					<div class="colonne"><img src="photo1.jpg"></div>
+					<div class="colonne"><img src="photo2.jpg"></div>
+					<div class="colonne"><img src="photo3.jpg"></div>
+				</div>
+				<div class="clearfix"></div>
+		  </div>
+		</section>
+
+
+	<!--HISTOIRE-->
+		<section class="section" id="section-histoire">
+		  <div class="wrap">
+
+			<h2>Histoire d'écrire</h2>
+			  <h3 class="legende">Pour m'exercer sur la manipulation du texte voici une histoire</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu pellentesque elit. Duis sodales nibh at quam luctus pulvinar. Praesent placerat ornare nunc id cursus. Morbi suscipit dictum pretium.<br> In ultricies pellentesque metus. Fusce sed nibh sapien. Mauris rutrum pharetra egestas. In id tincidunt est, non rutrum arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu pellentesque elit. Duis sodales nibh at quam luctus pulvinar. Praesent placerat ornare nunc id cursus. Morbi suscipit dictum pretium.</p>
+
+		  </div>
+		</section>
+
+	<!--CV-->
+		<section class="section" id="section-cv">
+		  <div class="wrap" id="wrap-cv">
+
+			<button><a href="#header">Petit apercu de mon cv</a></button>
+
+		  </div>
+		</section>
+
+	<!--CONTACT-->
+		<section class="section" id="section-contact">
+		  <div class="wrap" id="wrap-contact">
+
+			<h2>Contactez moi</h2>
+			  <h3 class="legende">Voila un petit formulaire de contact pour conclure !</h3>
+				<form>
+        		  <input type="text" id="input-name" name="user_name" placeholder="Votre nom..">
+        		  <input type="email" id="input-mail" name="user_mail" placeholder="Votre email..">
+        		  <textarea name="user_message" placeholder="Écrivez votre message ici.."></textarea>
+        		  <button type="submit"><a href="#header"></a>Envoyer le message</button>
+			  	</form>
+
+		  </div>
+		</section>
+
+	<!--FOOTER-->
+
+		<footer class="footer" id="main-footer">
+			<p>morgane.maunas@gmail.com</p>
+		</footer>
+
+	</main>
+</body>
